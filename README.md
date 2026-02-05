@@ -37,7 +37,3 @@ The engine produces a full 3D Implied Volatility Surface, allowing for the analy
 ![Volatility and Risk Manifolds](plots/validation_sample.png)
 *Figure 2: (Left) Calibrated 3D IV Surface. (Center) Vega Risk Manifold. (Right) Risk-weighted error heatmap, quantifying the impact of residuals in basis points (bps).*
 
-## 4. Usage
-To execute the simulation and training pipeline:
-```bash
-python3 heston_calibrator_efficient.py
